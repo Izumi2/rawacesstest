@@ -496,7 +496,7 @@ $result = [Kernel32]::ResumeThread($Process.hThread)
 if ($result -ne -1) {
 	Write-Host "Lembre dos 5 min..."
 } else {
-	Write-Host "Deu B.O"
+	Write-Host "Deu B.O 2"
 }
 
 try {
